@@ -1,0 +1,22 @@
+{
+  "name": "webpack-dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --env.development",
+    "build": "webpack --mode production --env.production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "js-yaml": "^3.14.0",
+    "lodash": "^4.17.15",
+    "schema-utils": "^2.7.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
